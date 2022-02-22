@@ -9,7 +9,6 @@ class GameScene extends Scene {
     // Add, scale, and make up a speed for our creature
     this.testsSprite = this.physics.add.sprite(64, 64, "default");
     this.testsSprite.body.setAllowGravity(false);
-    this.testsSprite.setScale(0.5);
     this.testsSpriteSpeed = 300;
     // Create a helper object for our arrow keys
     this.cursors = this.input.keyboard.createCursorKeys();
