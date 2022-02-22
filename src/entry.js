@@ -10,6 +10,8 @@ const config = {
   type: Phaser.WEB_GL,
   width: 720,
   height: 480,
+  disableContextMenu: true,
+  backgroundColor: "#224",
   canvas,
   physics: {
     default: "arcade",
